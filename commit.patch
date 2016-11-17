@@ -1,0 +1,16 @@
+Index: app/src/main/java/at/fh/swengb/forinttoeuro/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/at/fh/swengb/forinttoeuro/MainActivity.java	(date 1479415249000)
++++ app/src/main/java/at/fh/swengb/forinttoeuro/MainActivity.java	(revision )
+@@ -4,7 +4,7 @@
+ import android.os.Bundle;
+ 
+ public class MainActivity extends AppCompatActivity {
+-dsf
++
+     private String enterText;
+     private String resultText;
+  //HI
