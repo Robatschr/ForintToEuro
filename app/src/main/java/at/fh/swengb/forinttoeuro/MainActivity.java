@@ -7,7 +7,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String enterText;
     private String resultText;
-    private String sfda;
+
 
 
     @Override
