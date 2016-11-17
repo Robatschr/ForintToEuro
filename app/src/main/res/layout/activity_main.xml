@@ -21,7 +21,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
 
             <TextView
                 android:text="Forint to Euro"
@@ -37,7 +38,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
 
             <TextView
                 android:text="Enter a Number:"
@@ -59,7 +61,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
 
             <Button
                 android:text="To Forint"
@@ -67,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonForint"
                 android:layout_weight="1"
-                android:onClick="Forint" />
+                android:onClick="forintCalc" />
 
             <Button
                 android:text="To Euro"
@@ -75,13 +78,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonEuro"
                 android:layout_weight="1"
-                android:onClick="Euro" />
+                android:onClick="euroCalc" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
 
             <TextView
                 android:text="Result"
@@ -97,7 +101,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -112,14 +117,16 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="bottom">
+            android:gravity="bottom"
+            android:layout_marginTop="30dp">
 
             <Button
                 android:text="About"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonAbout"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="about" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
