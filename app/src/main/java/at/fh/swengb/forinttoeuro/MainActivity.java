@@ -7,8 +7,10 @@ public class MainActivity extends AppCompatActivity {
 
     private String enterText;
     private String resultText;
+    private String sfda;
  //HI
-
+    // hklfadns
+vxcvxcbydxbxb
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
